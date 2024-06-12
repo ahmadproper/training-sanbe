@@ -62,17 +62,19 @@
         <field name="arch" type="xml">
             <form string="Planning Role">
                 <sheet>
-                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger"
+                    <widget name="web_ribbon" title="Archieved" bg_color="text-bg-danger"
                         invisible="active"/>
                     <group>
                         <field name="active" invisible="1"/>
+                        <field name="company_id" invisible="1"/>
+                        <field name="currency_id" invisible="1"/>
                         <field name="name" required="1"/>
-                        <field name="resource_ids" widget="many2many_avatar_resource" 
-                            context="{'show_job_title': True, 'from_planning': True}"
+                        <field name="resource_ids" widget="many2many_tags"
+                            context="{'show_job_title' : True, 'from_planning' : True}"
                             required="1"/>
-                        <field name="point_rate" required="1" />
-                        <field name="amount" required="1" />
-                        <field name="color" />
+                        <field name="point_rate" required="1"/>
+                        <field name="amount" required="1"/>
+                        <field name="color"/>
                     </group>
                 </sheet>
                </form>
