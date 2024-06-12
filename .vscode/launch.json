@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Arkana - Training",
+            "type": "debugpy",
+            "request": "launch",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "python": "D:\\Odoo\\TrainingOdooSanbe\\Training\\training\\Scripts\\python",
+            "program": "D:\\Odoo\\odoo17\\server\\odoo-bin",
+            "args": [
+                "--config=D:\\Odoo\\TrainingOdooSanbe\\Training\\training\\training.conf",
+                "--dev=xml",
+            ]
+        },
+    ]
+}
