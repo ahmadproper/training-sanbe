@@ -12,6 +12,8 @@
             "args": [
                 "--config=D:\\Odoo\\TrainingOdooSanbe\\Training\\training\\training.conf",
                 "--dev=xml",
+                "--database=trainingdb",
+                "--update=sanbe_farma_training"
             ]
         },
     ]

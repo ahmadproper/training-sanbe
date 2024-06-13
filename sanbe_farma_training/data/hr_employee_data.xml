@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+ 
+<odoo noupdate="1">
+    <record id="hr_employee_1" model="hr.employee">
+        <field name="name">Reni</field>
+    </record>
+
+    <record id="hr_employee_2" model="hr.employee">
+        <field name="name">Reno</field>
+    </record>
+
+    <record id="hr_employee_3" model="hr.employee">
+        <field name="name">Joni</field>
+    </record>
+    
+    <record id="hr_employee_4" model="hr.employee">
+        <field name="name">Jono</field>
+    </record>
+    
+    
+    <record id="hr_employee_5" model="hr.employee">
+        <field name="name">jini</field>
+    </record>
+    
+    <record id="hr_employee_6" model="hr.employee">
+        <field name="name">jani</field>
+    </record>
+
+    <record id="hr_employee_7" model="hr.employee">
+        <field name="name">rere</field>
+    </record>
+
+    <record id="hr_employee_8" model="hr.employee">
+        <field name="name">jopak</field>
+    </record>
+    
+    <record id="hr_employee_9" model="hr.employee">
+        <field name="name">junuk</field>
+    </record>
+    
+    
+    <record id="hr_employee_10" model="hr.employee">
+        <field name="name">jojon</field>
+    </record>
+    
+    
+    
+
+    
+
+</odoo>
+
+ 
