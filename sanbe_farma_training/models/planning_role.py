@@ -6,6 +6,7 @@ class PlanningRoleTraining(models.Model):
     _description = 'Planning Role Training'
     _order = 'name asc'
     
+    # Menentukan nilai Default untuk Color secara Angka Random dari 1-11
     def _get_default_color(self):
         return randint(1, 11)
     
@@ -15,7 +16,7 @@ class PlanningRoleTraining(models.Model):
     currency_id = fields.Many2one('res.currency', string='Currency', 
                                   related='company_id.currency_id', store = True)
     point_rate = fields.Integer('Point Rate')
-    amount = fields.Monetary('Amount', curreny_field='currency_id')
+    amount = fields.Monetary('Amount', currency_field='currency_id')
     active = fields.Boolean('Active', default=True)
     name = fields.Char('Nama Role', index=True)
     color = fields.Integer('Color', default=_get_default_color)
